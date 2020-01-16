@@ -10,6 +10,8 @@
 
 ### Installation
 
+**Rename `.env.example` to `.env`**
+
 In your project folder
 
 > cd backend && yarn && yarn dev
@@ -30,9 +32,8 @@ URL = http://localhost:3333
 
 ### TODO
 
-<input type="checkbox"> Mobile App
-
-<input type="checkbox"> Update user (react)
+- [ ] Mobile App
+- [ ] Update user (react)
 
 ## Version
 
