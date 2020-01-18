@@ -43,6 +43,7 @@ function DevForm({ onSubmit }) {
           onChange={e => setGithubUsername(e.target.value)}
           required
         />
+        <span></span>
       </div>
       <div className='input-block'>
         <label htmlFor='techs'>Tecnologias</label>
@@ -54,6 +55,7 @@ function DevForm({ onSubmit }) {
           onChange={e => setTechs(e.target.value)}
           required
         />
+        <span></span>
       </div>
       <div className='input-group'>
         <div className='input-block'>
@@ -66,6 +68,7 @@ function DevForm({ onSubmit }) {
             onChange={e => setLatitude(e.target.value)}
             required
           />
+          <span></span>
         </div>
         <div className='input-block'>
           <label htmlFor='longitude'>Longitude</label>
@@ -77,6 +80,7 @@ function DevForm({ onSubmit }) {
             onChange={e => setLongitude(e.target.value)}
             required
           />
+          <span></span>
         </div>
       </div>
 

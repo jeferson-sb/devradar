@@ -46,7 +46,11 @@ const index = async (req, res) => {
 };
 
 const update = async (req, res) => {
-  const { name, bio, latitude, longitude, techs } = req.body;
+  const { github_username, latitude, longitude, techs } = req.body;
+
+  const apiResponse = await axios.get(`${GITHUB_API_URL}/${github_username}`);
+  const { name = login, bio } = apiResponse.data;
+
   const techsArray = stringToArray(techs);
   const location = {
     type: 'Point',

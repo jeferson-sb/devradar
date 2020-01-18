@@ -6,7 +6,7 @@ const index = async (req, res) => {
   const techsArray = stringToArray(techs);
   const devs = await Dev.find({
     techs: {
-      $in: techsArray
+      $in: new RegExp(techsArray, 'i')
     },
     location: {
       $near: {

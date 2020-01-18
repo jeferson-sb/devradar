@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 :root {
   --bg-color: #e5e6f0;
+  --white: #fff;
+  --black: #333;
+  --gray: #999;
+  --purple: #8e4dff;
+  --gray-1: #666;
+  --red: #fc5454;
+  --shadow-1: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  --button-bg-color: #7d40e7;
+  --button-bg-color-hover: #6931ca;
 }
 
 *,

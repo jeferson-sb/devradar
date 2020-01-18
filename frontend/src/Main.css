@@ -7,6 +7,15 @@ main ul {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   list-style: none;
+  padding-left: 0;
+}
+
+main p {
+  background: var(--white);
+  box-shadow: var(--shadow-1);
+  display: inline-block;
+  padding: 12px;
+  margin: 0;
 }
 
 @media (max-width: 650px) {
@@ -21,11 +30,11 @@ main ul {
 .user-info strong {
   display: block;
   font-size: 16px;
-  color: #333;
+  color: var(--black);
 }
 
 .user-info span {
   font-size: 13px;
-  color: #999;
+  color: var(--gray);
   margin-top: 2px;
 }

@@ -36,6 +36,7 @@ function App() {
         <DevForm onSubmit={handleAddDev} />
       </aside>
       <main>
+        <p>Total de devs : {devs.length}</p>
         <ul>
           {devs.map(dev => (
             <DevItem key={dev._id} dev={dev} onDelete={handleDeleteDev} />

@@ -1,6 +1,6 @@
 li.dev-item {
-  background: #fff;
-  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  background: var(--white);
+  box-shadow: var(--shadow-1);
   border-radius: 2px;
   padding: 20px;
 }
@@ -22,25 +22,25 @@ li.dev-item header .user-info {
 }
 
 li.dev-item p {
-  color: #666;
+  color: var(--gray-1);
   font-size: 14px;
   line-height: 20px;
   margin: 10px 0;
 }
 
 li.dev-item a {
-  color: #8e4dff;
+  color: var(--purple);
   font-size: 14px;
   text-decoration: none;
 }
 
 li.dev-item a:hover {
-  color: #8e4dff;
+  color: var(--purple);
 }
 
 li.dev-item header .close-button {
   border-radius: 50%;
-  border: 1px solid rgb(252, 84, 84);
+  border: 1px solid var(--red);
   width: 25px;
   height: 25px;
   align-self: flex-start;
@@ -50,22 +50,22 @@ li.dev-item header .close-button {
 
 li.dev-item header .close-button span {
   font-weight: bolder;
-  color: rgb(252, 84, 84);
+  color: var(--red);
 }
 
 li.dev-item .button {
   border: 0;
-  background: #7d40e7;
+  background: var(--button-bg-color);
   border-radius: 2px;
   padding: 8px 12px;
   font-size: 0.9rem;
   font-weight: bold;
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
   transition: background 0.3s ease-in-out;
   margin-left: 14px;
 }
 
 li.dev-item .button:hover {
-  background: #6931ca;
+  background: var(--button-bg-color-hover);
 }
