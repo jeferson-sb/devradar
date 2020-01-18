@@ -30,11 +30,13 @@ URL = http://localhost:3333
 
 `POST /api/devs { "github_username":"", "techs":"", "latitude":"", "longitude":"" }`
 
+`GET /api/search?latitude=&longitude=&techs=`
+
 ### TODO
 
-- [ ] Mobile App
+- [x] Mobile App
 - [ ] Update user (react)
 
 ## Version
 
-1.0.0
+1.0.2
