@@ -24,12 +24,14 @@ function DevItem({ dev, onDelete }) {
           </button>
         </header>
         <p>{dev.bio}</p>
-        <a href={`https://github.com/${dev.username}`}>
-          Acessar perfil no Github
-        </a>
-        <button className='button' onClick={() => setIsOpen(true)}>
-          Atualizar informações
-        </button>
+        <footer>
+          <a href={`https://github.com/${dev.github_username}`}>
+            Acessar perfil no Github
+          </a>
+          <button className='button' onClick={() => setIsOpen(true)}>
+            Atualizar informações
+          </button>
+        </footer>
       </li>
       <ModalDev
         isOpen={modalIsOpen}

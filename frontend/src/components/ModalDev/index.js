@@ -1,7 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
 import DevForm from '../DevForm';
-import './styles.css';
 
 import api from '../../services/api';
 
