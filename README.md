@@ -2,6 +2,8 @@
 Find developers based on your favorite technologies!
 
 ![version](https://img.shields.io/badge/version-1.0.0-green)
+
+App demo : https://github.com/jeferson-sb/devradar/releases
 ## Quick Start
 
 ### Pre-requisites
