@@ -24,7 +24,7 @@ URL = http://localhost:3333
 
 `GET /api/devs`
 
-`PUT /api/devs/:id`
+`PUT /api/devs/:id { "github_username":"", "techs":"", "latitude":"", "longitude":"" }`
 
 `DELETE /api/devs/:id`
 
@@ -35,8 +35,10 @@ URL = http://localhost:3333
 ### TODO
 
 - [x] Mobile App
-- [ ] Update user (react)
+- [x] Update user (react)
+- [ ] Launch release v1.0
+
 
 ## Version
 
-1.0.2
+1.1.0
