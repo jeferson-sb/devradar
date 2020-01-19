@@ -1,5 +1,7 @@
 # DevRadar
+Find developers based on your favorite technologies!
 
+![version](https://img.shields.io/badge/version-1.0.0-green)
 ## Quick Start
 
 ### Pre-requisites
@@ -36,9 +38,4 @@ URL = http://localhost:3333
 
 - [x] Mobile App
 - [x] Update user (react)
-- [ ] Launch release v1.0
-
-
-## Version
-
-1.1.0
+- [x] Launch release v1.0
