@@ -4,6 +4,12 @@ Find developers based on your favorite technologies!
 ![version](https://img.shields.io/badge/version-1.0.0-green)
 
 App demo : https://github.com/jeferson-sb/devradar/releases
+
+## Technologies used
+- [React](https://reactjs.org/) for FrontEnd
+- [React Native](https://reactnative.dev/) for Mobile
+- [Node.js](https://nodejs.org/) for Backend
+
 ## Quick Start
 
 ### Pre-requisites
