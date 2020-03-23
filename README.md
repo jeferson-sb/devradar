@@ -1,16 +1,22 @@
 # DevRadar
+
 Find developers based on your favorite technologies!
 
 ![version](https://img.shields.io/badge/version-1.0.0-green)
 
-App demo : https://github.com/jeferson-sb/devradar/releases
+![mockup](.github/mockup.jpg)
+
+## 📱 Demo
+
+[https://github.com/jeferson-sb/devradar/releases](https://github.com/jeferson-sb/devradar/releases)
 
 ## Technologies used
+
 - [React](https://reactjs.org/) for FrontEnd
 - [React Native](https://reactnative.dev/) for Mobile
 - [Node.js](https://nodejs.org/) for Backend
 
-## Quick Start
+## 🚀Quick Start
 
 ### Pre-requisites
 
@@ -20,30 +26,46 @@ App demo : https://github.com/jeferson-sb/devradar/releases
 
 ### Installation
 
-**Rename `.env.example` to `.env`**
+> **Rename `.env.example` to `.env`**
 
-In your project folder
+```bash
+cd backend && yarn
+```
 
-> cd backend && yarn && yarn dev
+```bash
+cd frontend && yarn
+```
 
-> cd frontend && yarn && yarn start
+### Usage
 
-### Api Routes
+```bash
+# on backend folder
+yarn dev
+```
 
-URL = http://localhost:3333
+```bash
+# on frontend folder
+yarn start
+```
 
-`GET /api/devs`
+### API Routes
 
-`PUT /api/devs/:id { "github_username":"", "techs":"", "latitude":"", "longitude":"" }`
+`URL: http://localhost:3333`
 
-`DELETE /api/devs/:id`
+| METHOD   | PATH                                            | RETURNS                                 |
+| -------- | ----------------------------------------------- | --------------------------------------- |
+| `GET`    | `/api/devs`                                     | List of developers                      |
+| `POST`   | `/api/devs`                                     | Create a new developer                  |
+| `PUT`    | `/api/devs/:id`                                 | Update a developer                      |
+| `DELETE` | `/api/devs/:id`                                 | Delete a developer                      |
+| `GET`    | `/api/searh?latitude=x&longitude=y&techs=a,b,c` | Filter by latitude, longitude and techs |
 
-`POST /api/devs { "github_username":"", "techs":"", "latitude":"", "longitude":"" }`
+_REQUEST BODY_
 
-`GET /api/search?latitude=&longitude=&techs=`
+```json
+{ "github_username":"", "techs":"", "latitude":"", "longitude":"" }`
+```
 
-### TODO
+### 📝License
 
-- [x] Mobile App
-- [x] Update user (react)
-- [x] Launch release v1.0
+This project is licensed under the [MIT License](https://github.com/jeferson/devradar/blob/master/LICENSE.md)
