@@ -48,7 +48,7 @@ yarn dev
 yarn start
 ```
 
-### API Routes
+## API Routes
 
 `URL: http://localhost:3333`
 
@@ -66,6 +66,6 @@ _REQUEST BODY_
 { "github_username":"", "techs":"", "latitude":"", "longitude":"" }`
 ```
 
-### 📝License
+## 📝License
 
 This project is licensed under the [MIT License](https://github.com/jeferson/devradar/blob/master/LICENSE.md)
